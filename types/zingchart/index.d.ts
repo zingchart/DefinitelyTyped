@@ -9502,6 +9502,11 @@ export interface graphset {
         */
        'exponent-decimals'?: number;
        /**
+        * Allows you to set custom labels that correspond to each of the ticks on a scale. If there are more ticks than labels, the default
+        * values will be used for the remaining labels. ['Jan', 'Feb', 'Mar', ...] | ...
+        */
+       labels?: any;
+       /**
         * ''horizontal' | 'h' | 'vertical' | 'v' | 'row x col' | 'x col' | 'row x' | 'float''
         */
        layout?: string;
